@@ -1,0 +1,63 @@
+{
+  "0": {
+    "harvestBonus": {
+      "woods": 1,
+      "stones": 1,
+      "servants": 1
+    },
+    "productionBonus": {
+      "militaryPoints": 1,
+      "money": 2
+
+    }
+  },
+  "1": {
+    "harvestBonus": {
+      "woods": 1,
+      "stones": 1,
+      "militaryPoints": 1
+    },
+
+    "productionBonus": {
+      "servants": 2,
+      "money": 1
+    }
+  },
+  "2": {
+    "harvestBonus": {
+      "woods": 1,
+      "stones": 1,
+      "servants": 1
+    },
+
+    "productionBonus": {
+      "militaryPoints": 2,
+      "money": 1
+    }
+  },
+  "3": {
+    "harvestBonus": {
+      "woods": 1,
+      "stones": 1,
+      "militaryPoints": 1
+    },
+
+    "productionBonus": {
+      "servants": 1,
+      "money": 2
+    }
+  },
+
+  "4": {
+    "harvestBonus": {
+      "stones": 1,
+      "woods": 1,
+      "money": 1
+    },
+
+    "productionBonus": {
+      "servants": 1,
+      "militaryPoints": 2
+    }
+  }
+}

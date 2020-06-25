@@ -1,0 +1,29 @@
+{
+  "0": {
+    "victoryPoints": 0
+  },
+  "1": {
+    "victoryPoints": 1
+
+  },
+  "2": {
+    "victoryPoints": 3
+
+  },
+  "3": {
+    "victoryPoints": 6
+
+  },
+  "4": {
+    "victoryPoints": 10
+
+  },
+  "5": {
+    "victoryPoints": 15
+
+  },
+  "6": {
+    "victoryPoints": 21
+
+  }
+}

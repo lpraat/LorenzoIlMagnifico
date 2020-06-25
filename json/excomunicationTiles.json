@@ -1,0 +1,209 @@
+{
+  "firstPeriod": {
+    "1": {
+      "name": "1",
+      "permanentEffect": "resourcesChange",
+      "resourcesChange": {
+        "resources": {
+          "military": -1
+        },
+        "source": [
+          "immediate",
+          "permanent",
+          "actionPlace"
+        ]
+      }
+    },
+    "2": {
+      "name": "2",
+      "permanentEffect": "resourcesChange",
+      "resourcesChange": {
+        "resources": {
+          "money": -1
+        },
+        "source": [
+          "immediate",
+          "permanent",
+          "actionPlace"
+        ]
+      }
+    },
+    "3": {
+      "name": "3",
+      "permanentEffect": "resourcesChange",
+      "resourcesChange": {
+        "resources": {
+          "servants": -1
+        },
+        "source": [
+          "immediate",
+          "permanent",
+          "actionPlace"
+        ]
+      }
+    },
+    "4": {
+      "name": "4",
+      "permanentEffect": "resourcesChange",
+      "resourcesChange": {
+        "resources": {
+          "woods": -1,
+          "stones": -1
+        },
+        "source": [
+          "immediate",
+          "permanent",
+          "actionPlace"
+        ]
+      }
+    },
+    "5": {
+      "name": "5",
+      "permanentEffect": "harvestChange",
+      "harvestChange": {
+        "value": -3
+      }
+    },
+    "6": {
+      "name": "6",
+      "permanentEffect": "productionChange",
+      "productionChange": {
+        "value": -3
+      }
+    },
+    "7": {
+      "name": "7",
+      "permanentEffect": "pawnValueChange",
+      "pawnValueChange": {
+        "colors": [
+          "orange",
+          "black",
+          "white"
+        ],
+        "value": -1
+      }
+    }
+  },
+  "secondPeriod": {
+    "8": {
+      "name": "8",
+      "permanentEffect": "floorChange",
+      "floorChange": {
+        "color": "green",
+        "value": "-4",
+        "discount": {}
+      }
+    },
+    "9": {
+      "name": "9",
+      "permanentEffect": "floorChange",
+      "floorChange": {
+        "color": "yellow",
+        "value": "-4",
+        "discount": {}
+      }
+    },
+    "10": {
+      "name": "10",
+      "permanentEffect": "floorChange",
+      "floorChange": {
+        "color": "blue",
+        "value": "-4",
+        "discount": {}
+      }
+    },
+    "11": {
+      "name": "11",
+      "permanentEffect": "floorChange",
+      "floorChange": {
+        "color": "purple",
+        "value": "-4",
+        "discount": {}
+      }
+    },
+    "12": {
+      "name": "12",
+      "permanentEffect": "placeNegate",
+      "placeNegate": {
+        "places": [
+          "coinSpot",
+          "militarySpot",
+          "servantSpot",
+          "councilSpot"
+        ]
+      }
+    },
+    "13": {
+      "name": "13",
+      "permanentEffect": "servantMalus",
+      "servantMalus": {
+        "value": 2
+      }
+    },
+    "14": {
+      "name": "14",
+      "permanentEffect": "turnNegate"
+    }
+  },
+  "thirdPeriod": {
+
+    "15": {
+      "name": "15",
+      "permanentEffect": "endGameNegate",
+      "endGameNegate": {
+        "color": "blue"
+      }
+    },
+    "16": {
+      "name": "16",
+      "permanentEffect": "endGameNegate",
+      "endGameNegate": {
+        "color": "purple"
+      }
+    },
+    "17": {
+      "name": "17",
+      "permanentEffect": "endGameNegate",
+      "endGameNegate": {
+        "color": "green"
+      }
+    },
+    "18": {
+      "name": "18",
+      "permanentEffect": "endGameVictoryMalus",
+      "endGameVictoryMalus": {
+        "resources": {
+          "victoryPoints": 5
+        }
+      }
+    },
+    "19": {
+      "name": "19",
+      "permanentEffect": "endGameVictoryMalus",
+      "endGameVictoryMalus": {
+        "resources": {
+          "militaryPoints": 1
+        }
+      }
+    },
+    "20": {
+      "name": "20",
+      "permanentEffect": "endGameVictoryMalusCost",
+      "endGameVictoryMalusCost": {
+        "color": "yellow"
+      }
+    },
+    "21": {
+      "name": "21",
+      "permanentEffect": "endGameVictoryMalus",
+      "endGameVictoryMalus": {
+        "resources": {
+          "woods": 1,
+          "stones": 1,
+          "servants": 1,
+          "money": 1
+        }
+      }
+    }
+  }
+}

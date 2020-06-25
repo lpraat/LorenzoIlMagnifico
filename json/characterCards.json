@@ -1,0 +1,378 @@
+{
+  "firstPeriod": {
+    "Warlord": {
+      "name": "Warlord",
+      "cost": {
+        "money": 2
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "floorChange",
+      "bonus": {
+        "resources": {
+          "militaryPoints": 3
+        }
+      },
+      "floorChange": {
+        "color": "green",
+        "value": 2,
+        "discount": {
+        }
+      }
+    },
+    "Stonemason": {
+      "name": "Stonemason",
+      "cost": {
+        "money": 4
+      },
+      "immediateEffect": "null",
+      "permanentEffect": "floorChangeOr",
+      "floorChangeOr": {
+        "color": "yellow",
+        "value": 2,
+        "discount1": {
+          "woods": 1
+        },
+        "discount2": {
+          "stones": 1
+        }
+      }
+    },
+    "Dame": {
+      "name": "Dame",
+      "cost": {
+        "money": 4
+      },
+      "immediateEffect": "null",
+      "permanentEffect": "floorChange",
+      "floorChange": {
+        "color": "blue",
+        "value": 2,
+        "discount": {
+          "money": 1
+        }
+      }
+    },
+    "Knight": {
+      "name": "Knight",
+      "cost": {
+        "money": 2
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "floorChange",
+      "bonus": {
+        "resources": {
+          "councilPrivileges": 1
+        }
+      },
+      "floorChange": {
+        "color": "purple",
+        "value": 2,
+        "discount": {
+        }
+      }
+    },
+    "Farmer": {
+      "name": "Farmer",
+      "cost": {
+        "money": 3
+      },
+      "immediateEffect": "null",
+      "permanentEffect": "harvestChange",
+      "harvestChange": {
+        "value": 2
+      }
+    },
+    "Artisan": {
+      "name": "Artisan",
+      "cost": {
+        "money": 3
+      },
+      "immediateEffect": "null",
+      "permanentEffect": "productionChange",
+      "productionChange": {
+        "value": 2
+      }
+    },
+    "Preacher": {
+      "name": "Preacher",
+      "cost": {
+        "money": 2
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "noHighFloorBonus",
+      "bonus": {
+        "resources": {
+          "faithPoints": 4
+        }
+      }
+    },
+    "Abbess": {
+      "name": "Abbess",
+      "cost": {
+        "money": 3
+      },
+      "immediateEffect": "bonus-extraFloorPick",
+      "permanentEffect": "null",
+      "bonus": {
+        "resources": {
+          "faithPoints": 1
+        }
+      },
+      "extraFloorPick": {
+        "color": "any",
+        "value": 4,
+        "discount": {
+        }
+      }
+    }
+  },
+  "secondPeriod": {
+    "Captain": {
+      "name": "Captain",
+      "cost": {
+        "money": 4
+      },
+      "immediateEffect": "bonus-extraFloorPick",
+      "permanentEffect": "null",
+      "bonus": {
+        "resources": {
+          "militaryPoints": 2
+        }
+      },
+      "extraFloorPick": {
+        "color": "green",
+        "value": 6,
+        "discount": {
+
+        }
+      }
+    },
+    "Architect": {
+      "name": "Architect",
+      "cost": {
+        "money": 4
+      },
+      "immediateEffect": "extraFloorPick",
+      "permanentEffect": "null",
+      "extraFloorPick": {
+        "color": "yellow",
+        "value": 6,
+        "discount": {
+          "woods": 1,
+          "stones": 1
+        }
+      }
+    },
+
+    "Patron": {
+      "name": "Patron",
+      "cost": {
+        "money": 3
+      },
+      "immediateEffect": "extraFloorPick",
+      "permanentEffect": "null",
+      "extraFloorPick": {
+        "color": "blue",
+        "value": 6,
+        "discount": {
+          "money": 2
+        }
+      }
+    },
+
+    "Hero": {
+      "name": "Hero",
+      "cost": {
+        "money": 4
+      },
+      "immediateEffect": "bonus-extraFloorPick",
+      "permanentEffect": "null",
+      "bonus": {
+        "resources": {
+          "councilPrivileges": 1
+        }
+      },
+      "extraFloorPick": {
+        "color": "purple",
+        "value": 6,
+        "discount": {
+        }
+      }
+    },
+
+    "Peasant": {
+      "name": "Peasant",
+      "cost": {
+        "money": 4
+      },
+      "immediateEffect": "null",
+      "permanentEffect": "harvestChange",
+      "harvestChange": {
+        "value": 3
+      }
+    },
+    "Scholar": {
+      "name": "Scholar",
+      "cost": {
+        "money": 4
+      },
+      "immediateEffect": "null",
+      "permanentEffect": "productionChange",
+      "productionChange": {
+        "value": 3
+      }
+    },
+    "Papal Messenger": {
+      "name": "Papal Messenger",
+      "cost": {
+        "money": 5
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "null",
+      "bonus": {
+        "resources": {
+          "faithPoints": 3
+        }
+      }
+    },
+    "Royal Messenger": {
+      "name": "Royal Messenger",
+      "cost": {
+        "money": 5
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "null",
+      "bonus": {
+        "resources": {
+          "councilPrivileges": 3
+        }
+      }
+    }
+  },
+  "thirdPeriod": {
+    "Noble": {
+      "name": "Noble",
+      "cost": {
+        "money": 6
+      },
+      "immediateEffect": "bonusPerCard",
+      "permanentEffect": "null",
+      "bonusPerCard": {
+        "resources": {
+          "victoryPoints": 2
+        },
+        "card": "green"
+      }
+    },
+    "Governor": {
+      "name": "Governor",
+      "cost": {
+        "money": 6
+      },
+      "immediateEffect": "bonusPerCard",
+      "permanentEffect": "null",
+      "bonusPerCard": {
+        "resources": {
+          "victoryPoints": 2
+        },
+        "card": "yellow"
+      }
+    },
+    "Paramour": {
+      "name": "Paramour",
+      "cost": {
+        "money": 7
+      },
+      "immediateEffect": "bonusPerCard",
+      "permanentEffect": "null",
+      "bonusPerCard": {
+        "resources": {
+          "victoryPoints": 2
+        },
+        "card": "blue"
+      }
+    },
+    "Herald": {
+      "name": "Herald",
+      "cost": {
+        "money": 6
+      },
+      "immediateEffect": "bonusPerCard",
+      "permanentEffect": "null",
+      "bonusPerCard": {
+        "resources": {
+          "victoryPoints": 2
+        },
+        "card": "purple"
+      }
+    },
+    "Cardinal": {
+      "name": "Cardinal",
+      "cost": {
+        "money": 4
+      },
+      "immediateEffect": "bonus-extraHarvest",
+      "permanentEffect": "null",
+      "bonus": {
+        "resources": {
+          "faithPoints": 2
+        }
+      },
+      "extraHarvest": {
+        "value": 4,
+        "changeable": true
+      }
+    },
+    "Bishop": {
+      "name": "Bishop",
+      "cost": {
+        "money": 5
+      },
+      "immediateEffect": "bonus-extraProduction",
+      "permanentEffect": "null",
+      "bonus": {
+        "resources": {
+          "faithPoints": 1
+        }
+      },
+      "extraProduction": {
+        "value": 4,
+        "changeable": true
+      }
+    },
+    "General": {
+      "name": "General",
+      "cost": {
+        "money": 5
+      },
+      "immediateEffect": "victoryPerResource",
+      "permanentEffect": "null",
+      "victoryPerResource": {
+        "resources": {
+          "militaryPoints": 2
+        }
+      }
+    },
+    "Ambassador": {
+      "name": "Ambassador",
+      "cost": {
+        "money": 6
+      },
+      "immediateEffect": "bonus-extraFloorPick",
+      "permanentEffect": "null",
+      "bonus": {
+        "resources": {
+          "councilPrivileges": 1
+        }
+      },
+      "extraFloorPick": {
+        "color": "any",
+        "value": 7,
+        "discount": {
+
+        }
+      }
+    }
+
+  }
+}

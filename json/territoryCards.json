@@ -1,0 +1,423 @@
+{
+  "firstPeriod": {
+    "Commercial Hub": {
+      "name": "Commercial Hub",
+      "cost": {},
+      "immediateEffect": "null",
+      "permanentEffect": "bonusH",
+      "activationValue": 1,
+      "bonusH": {
+        "resources": {
+          "money": 1
+        }
+      }
+    },
+    "Woods": {
+      "name": "Woods",
+      "cost": {},
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusH",
+      "activationValue": 2,
+      "bonus": {
+        "resources": {
+          "woods": 1
+        }
+      },
+      "bonusH": {
+        "resources": {
+          "woods": 1
+        }
+      }
+    },
+    "Village": {
+      "name": "Village",
+      "cost": {},
+      "immediateEffect": "null",
+      "permanentEffect": "bonusH",
+      "activationValue": 3,
+      "bonusH": {
+        "resources": {
+          "money": 1,
+          "servants": 1
+        }
+      }
+    },
+    "Gravel Pit": {
+      "name": "Gravel Pit",
+      "cost": {},
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusH",
+      "activationValue": 4,
+      "bonus": {
+        "resources": {
+          "stones": 2
+        }
+      },
+      "bonusH": {
+        "resources": {
+          "stones": 2
+        }
+      }
+    },
+    "Forest": {
+      "name": "Forest",
+      "cost": {},
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusH",
+      "activationValue": 5,
+      "bonus": {
+        "resources": {
+          "woods": 1
+        }
+      },
+      "bonusH": {
+        "resources": {
+          "woods": 3
+        }
+      }
+    },
+    "Monastery": {
+      "name": "Monastery",
+      "cost": {},
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusH",
+      "activationValue": 6,
+      "bonus": {
+        "resources": {
+          "militaryPoints": 2
+        }
+      },
+      "bonusH": {
+        "resources": {
+          "faithPoints": 1,
+          "stones": 2
+        }
+      }
+    },
+    "Citadel": {
+      "name": "Citadel",
+      "cost": {},
+      "immediateEffect": "null",
+      "permanentEffect": "bonusH",
+      "activationValue": 5,
+      "bonusH": {
+        "resources": {
+          "bonusH": {
+            "militaryPoints": 2,
+            "stones": 1
+          }
+        }
+      }
+    },
+    "City": {
+      "name": "City",
+      "cost": {},
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusH",
+      "activationValue": 6,
+      "bonus": {
+        "resources": {
+          "money": 3
+        }
+      },
+      "bonusH": {
+        "resources": {
+          "councilPrivileges": 1
+        }
+      }
+    }
+  },
+  "secondPeriod": {
+    "Gold Mine": {
+      "name": "Gold Mine",
+      "cost": {},
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusH",
+      "activationValue": 1,
+      "bonus": {
+        "resources": {
+          "money": 1
+        }
+      },
+      "bonusH": {
+        "resources": {
+          "money": 2
+        }
+      }
+    },
+    "Mountain Town": {
+      "name": "Mountain Town",
+      "cost": {},
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusH",
+      "activationValue": 3,
+      "bonus": {
+        "resources": {
+          "servants": 1
+        }
+      },
+      "bonusH": {
+        "resources": {
+          "militaryPoints": 1,
+          "woods": 2
+        }
+      }
+    },
+    "Mining Town": {
+      "name": "Mining Town",
+      "cost": {},
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusH",
+      "activationValue": 4,
+      "bonus": {
+        "resources": {
+          "servants": 2,
+          "stones": 1
+        }
+      },
+      "bonusH": {
+        "resources": {
+          "servants": 1,
+          "stones": 2
+        }
+      }
+    },
+    "Rock Pit": {
+      "name": "Rock Pit",
+      "cost": {},
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusH",
+      "activationValue": 3,
+      "bonus": {
+        "resources": {
+          "woods": 1
+        }
+      },
+      "bonusH": {
+        "resources": {
+          "stones": 3
+        }
+      }
+    },
+    "Estate": {
+      "name": "Estate",
+      "cost": {},
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusH",
+      "activationValue": 4,
+      "bonus": {
+        "resources": {
+          "servants": 2,
+          "woods": 1
+        }
+      },
+      "bonusH": {
+        "resources": {
+          "money": 1,
+          "woods": 2
+        }
+      }
+    },
+    "Hermitage": {
+      "name": "Hermitage",
+      "cost": {},
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusH",
+      "activationValue": 2,
+      "bonus": {
+        "resources": {
+          "faithPoints": 1
+        }
+      },
+      "bonusH": {
+        "resources": {
+          "faithPoints": 1
+        }
+      }
+    },
+    "Manor House": {
+      "name": "Manor House",
+      "cost": {},
+      "immediateEffect": "null",
+      "permanentEffect": "bonusH",
+      "activationValue": 5,
+      "bonusH": {
+        "resources": {
+          "militaryPoints": 2,
+          "servants": 2
+        }
+      }
+    },
+    "Dukedom": {
+      "name": "Dukedom",
+      "cost": {},
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusH",
+      "activationValue": 6,
+      "bonus": {
+        "resources": {
+          "money": 4
+        }
+      },
+      "bonusH": {
+        "resources": {
+          "money": 1,
+          "stones": 1,
+          "woods": 2
+        }
+      }
+    }
+  },
+  "thirdPeriod": {
+    "Trading Town": {
+      "name": "Trading Town",
+      "cost": {},
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusH",
+      "activationValue": 1,
+      "bonus": {
+        "resources": {
+          "money": 1,
+          "servants": 1
+        }
+      },
+      "bonusH": {
+        "resources": {
+          "money": 3
+        }
+      }
+    },
+    "Farm": {
+      "name": "Farm",
+      "cost": {},
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusH",
+      "activationValue": 3,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 1,
+          "woods": 1
+        }
+      },
+      "bonusH": {
+        "resources": {
+          "victoryPoints": 2,
+          "woods": 2
+        }
+      }
+    },
+    "Colony": {
+      "name": "Colony",
+      "cost": {},
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusH",
+      "activationValue": 5,
+      "bonus": {
+        "resources": {
+          "militaryPoints": 2
+        }
+      },
+      "bonusH": {
+        "resources": {
+          "victoryPoints": 4,
+          "woods": 1
+        }
+      }
+    },
+    "Marble Pit": {
+      "name": "Marble Pit",
+      "cost": {},
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusH",
+      "activationValue": 2,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 3
+        }
+      },
+      "bonusH": {
+        "resources": {
+          "victoryPoints": 1,
+          "stones": 2
+        }
+      }
+    },
+    "Province": {
+      "name": "Province",
+      "cost": {},
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusH",
+      "activationValue": 6,
+      "bonus": {
+        "resources": {
+          "councilPrivileges": 1,
+          "stones": 1
+        }
+      },
+      "bonusH": {
+        "resources": {
+          "victoryPoints": 4,
+          "stones": 1
+        }
+      }
+    },
+    "Sanctuary": {
+      "name": "Sanctuary",
+      "cost": {},
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusH",
+      "activationValue": 1,
+      "bonus": {
+        "resources": {
+          "faithPoints": 1
+        }
+      },
+      "bonusH": {
+        "resources": {
+          "money": 1,
+          "faithPoints": 1
+        }
+      }
+
+    },
+    "Castle": {
+      "name": "Castle",
+      "cost": {},
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusH",
+      "activationValue": 4,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 2,
+          "money": 2
+        }
+      },
+      "bonusH": {
+        "resources": {
+          "militaryPoints": 3,
+          "servants": 1
+        }
+      }
+    },
+    "Fortified Town": {
+      "name": "Fortified Town",
+      "cost": {},
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusH",
+      "activationValue": 2,
+      "bonus": {
+        "resources": {
+          "militaryPoints": 2,
+          "servants": 1
+        }
+      },
+      "bonusH": {
+        "resources": {
+          "militaryPoints": 1,
+          "servants": 2
+        }
+      }
+    }
+  }
+
+}

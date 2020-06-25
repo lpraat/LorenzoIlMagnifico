@@ -1,0 +1,34 @@
+socket0 - LOGIN - socket0 - 0 - false - GUI
+socket0 - LOGIN - socket0 - 0
+socket1 - LOGIN - socket1 - 1 - false - GUI
+socket1 - LOGIN - socket1 - 1
+socket1 - place - coin_spot - black - 1
+socket0 - place - character1 - black - 0
+socket1 - place - venture1 - white - 0
+socket0 - place - building1 - white - 0
+socket1 - place - harvest_area - orange - 0
+socket0 - place - production_area - orange - 0
+socket1 - board_status
+socket1 - place - council_palace - neutral - 0
+socket0 - players_status
+socket0 - place - council_palace - neutral - 0
+socket1 - place - council_spot - black - 0
+socket0 - place - territory2 - black - 0
+socket1 - place - venture2 - white - 0
+socket0 - place - building2 - white - 0
+socket1 - place - largeharvest_area - orange - 3
+socket0 - place - largeproduction_area - orange - 3
+socket1 - place - council_palace - neutral - 0
+socket0 - place - council_palace - neutral - 0
+socket0 - leader - show_played
+socket0 - leader - show_hand
+socket0 - leader - show_once
+socket0 - leader - 1 - activate
+socket0 - leader - 1 - activate_once
+socket1 - leader - show_played
+socket1 - leader - show_hand
+socket1 - leader - show_once
+socket1 - leader - 1 - activate
+socket1 - leader - 1 - activate_once
+socket0 - leader - 1 - discard
+socket1 - leader - 4 - discard

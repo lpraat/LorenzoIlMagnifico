@@ -1,0 +1,588 @@
+{
+  "firstPeriod": {
+    "Mint": {
+      "name": "Mint",
+      "cost": {
+        "woods": 1,
+        "stones": 3
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusPerCardP",
+      "activationValue": 5,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 5
+        }
+      },
+      "bonusPerCardP": {
+        "card": "yellow",
+        "resources": {
+          "money": 1
+        }
+      }
+    },
+    "Tax Office": {
+      "name": "Tax Office",
+      "cost": {
+        "woods": 3,
+        "stones": 1
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusPerCardP",
+      "activationValue": 5,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 5
+        }
+      },
+      "bonusPerCardP": {
+        "card": "green",
+        "resources": {
+          "money": 1
+        }
+      }
+    },
+    "Triumphal Arch": {
+      "name": "Triumphal Arch",
+      "cost": {
+        "money": 2,
+        "stones": 2
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusPerCardP",
+      "activationValue": 6,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 6
+        }
+      },
+      "bonusPerCardP": {
+        "card": "purple",
+        "resources": {
+          "victoryPoints": 1
+        }
+      }
+    },
+    "Theater": {
+      "name": "Theater",
+      "cost": {
+        "money": 2,
+        "woods": 2
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusPerCardP",
+      "activationValue": 6,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 6
+        }
+      },
+      "bonusPerCardP": {
+        "card": "blue",
+        "resources": {
+          "victoryPoints": 1
+        }
+      }
+    },
+    "Carpenter's Shop": {
+      "name": "Carpenter's Shop",
+      "cost": {
+        "money": 1,
+        "woods": 2
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "exchangeOrP",
+      "activationValue": 4,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 3
+        }
+      },
+      "exchangeOrP": {
+        "in1": {
+          "woods": 1
+        },
+        "out1": {
+          "money": 3
+        },
+        "in2": {
+          "woods": 2
+        },
+        "out2": {
+          "money": 5
+        }
+      }
+    },
+    "Stonemasons's Shop": {
+      "name": "Stonemason's Shop",
+      "cost": {
+        "money": 1,
+        "stones": 2
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "exchangeOrP",
+      "activationValue": 3,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 2
+        }
+      },
+      "exchangeOrP": {
+        "in1": {
+          "stones": 1
+        },
+        "out1": {
+          "money": 3
+        },
+        "in2": {
+          "stones": 1
+        },
+        "out2": {
+          "money": 5
+        }
+      }
+    },
+    "Chapel": {
+      "name": "Chapel",
+      "cost": {
+        "woods": 2
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "exchangeP",
+      "activationValue": 2,
+      "bonus": {
+        "resources": {
+          "faithPoints": 1
+        }
+      },
+      "exchangeP": {
+        "in": {
+          "money": 1
+        },
+        "out": {
+          "faithPoints": 1
+        }
+      }
+    },
+    "Residence": {
+      "name": "Residence",
+      "cost": {
+        "stones": 2
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "exchangeP",
+      "activationValue": 1,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 1
+        }
+      },
+      "exchangeP": {
+        "in": {
+          "money": 1
+        },
+        "out": {
+          "councilPrivileges": 1
+        }
+      }
+    }
+  },
+  "secondPeriod": {
+    "Marketplace": {
+      "name": "Marketplace",
+      "cost": {
+        "woods": 2,
+        "stones": 1
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "exchangeP",
+      "activationValue": 3,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 3
+        }
+      },
+      "exchangeP": {
+        "in": {
+          "money": 3
+        },
+        "out": {
+          "woods": 2,
+          "stones": 2
+        }
+      }
+    },
+    "Treasury": {
+      "name": "Treasury",
+      "cost": {
+        "woods": 3
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "exchangeOrP",
+      "activationValue": 3,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 4
+        }
+      },
+      "exchangeOrP": {
+        "in1": {
+          "money": 1
+        },
+        "out1": {
+          "victoryPoints": 3
+        },
+        "in2": {
+          "money": 2
+        },
+        "out2": {
+          "victoryPoints": 5
+        }
+      }
+    },
+    "Painters' Guild": {
+      "name": "Painters' Guild",
+      "cost": {
+        "woods": 4
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "exchangeOrP",
+      "activationValue": 4,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 5
+        }
+      },
+      "exchangeOrP": {
+        "in1": {
+          "woods": 1
+        },
+        "out1": {
+          "victoryPoints": 3
+        },
+        "in2": {
+          "woods": 3
+        },
+        "out2": {
+          "victoryPoints": 7
+        }
+      }
+    },
+    "Sculptors' Guild": {
+      "name": "Sculptors' Guild",
+      "cost": {
+        "stones": 4
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "exchangeOrP",
+      "activationValue": 5,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 6
+        }
+      },
+      "exchangeOrP": {
+        "in1": {
+          "stones": 1
+        },
+        "out1": {
+          "victoryPoints": 3
+        },
+        "in2": {
+          "stones": 3
+        },
+        "out2": {
+          "victoryPoints": 7
+        }
+      }
+    },
+    "Stonemasons' Guild": {
+      "name": "Stonemasons' Guild",
+      "cost": {
+        "woods": 1,
+        "stones": 2
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "exchangeP",
+      "activationValue": 4,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 4
+        }
+      },
+      "exchangeP": {
+        "in": {
+          "servants": 1,
+          "woods": 1,
+          "stones": 1
+        },
+        "out": {
+          "victoryPoints": 6
+        }
+      }
+    },
+    "Baptistery": {
+      "name": "Baptistery",
+      "cost": {
+        "stones": 3
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "exchangeP",
+      "activationValue": 2,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 2,
+          "faithPoints": 1
+        }
+      },
+      "exchangeP": {
+        "in": {
+          "faithPoints": 1
+        },
+        "out": {
+          "money": 2,
+          "victoryPoints": 2
+        }
+      }
+    },
+    "Barracks": {
+      "name": "Barracks",
+      "cost": {
+        "woods": 1,
+        "stones": 1
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "exchangeP",
+      "activationValue": 1,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 3
+        }
+      },
+      "exchangeP": {
+        "in": {
+          "servants": 1
+        },
+        "out": {
+          "militaryPoints": 3
+        }
+      }
+    },
+    "Stronghold": {
+      "name": "Stronghold",
+      "cost": {
+        "money": 2,
+        "stones": 2,
+        "woods": 2
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusP",
+      "activationValue": 6,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 8
+        }
+      },
+      "bonusP": {
+        "resources": {
+          "victoryPoints": 2,
+          "militaryPoints": 2
+        }
+      }
+    }
+  },
+  "thirdPeriod": {
+    "Bank": {
+      "name": "Bank",
+      "cost": {
+        "money": 3,
+        "woods": 1,
+        "stones": 3
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusP",
+      "activationValue": 2,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 7
+        }
+      },
+      "bonusP": {
+        "resources": {
+          "money": 5
+        }
+      }
+    },
+    "Fair": {
+      "name": "Fair",
+      "cost": {
+        "resources": {
+          "money": 4,
+          "woods": 3
+        }
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "exchangeP",
+      "activationValue": 4,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 9
+        }
+      },
+      "exchangeP": {
+        "in": {
+          "money": 4
+        },
+        "out": {
+          "woods": 3,
+          "stones": 3
+        }
+      }
+    },
+    "Garden": {
+      "name": "Garden",
+      "cost": {
+        "servants": 2,
+        "woods": 4,
+        "stones": 2
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusP",
+      "activationValue": 1,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 10
+        }
+      },
+      "bonusP": {
+        "resources": {
+          "victoryPoints": 3
+        }
+      }
+    },
+    "Fortress": {
+      "name": "Fortress",
+      "cost": {
+        "money": 2,
+        "woods": 2,
+        "stones": 4
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusP",
+      "activationValue": 5,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 9
+        }
+      },
+      "bonusP": {
+        "resources": {
+          "victoryPoints": 2,
+          "councilPrivileges": 1
+        }
+      }
+    },
+    "Palace": {
+      "name": "Palace",
+      "cost": {
+        "money": 3,
+        "stones": 1,
+        "woods": 3
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "exchangeP",
+      "activationValue": 6,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 9
+        }
+      },
+      "exchangeP": {
+        "in": {
+          "money": 1
+        },
+        "out": {
+          "servants": 2,
+          "victoryPoints": 4
+        }
+      }
+    },
+    "Church": {
+      "name": "Church",
+      "cost": {
+        "woods": 1,
+        "stones": 4
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "exchangeOrP",
+      "activationValue": 1,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 5,
+          "faithPoints": 1
+        }
+      },
+      "exchangeOrP": {
+        "in1": {
+          "woods": 1
+        },
+        "out1": {
+          "faithPoints": 2
+        },
+        "in2": {
+          "stones": 1
+        },
+        "out2": {
+          "faithPoints": 2
+        }
+      }
+    },
+    "Military Academy": {
+      "name": "Military Academy",
+      "cost": {
+        "servants": 1,
+        "woods": 2,
+        "stones": 2
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "exchangeP",
+      "activationValue": 3,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 7
+        }
+      },
+      "exchangeP": {
+        "in": {
+          "servants": 1
+        },
+        "out": {
+          "militaryPoints": 3,
+          "victoryPoints": 1
+        }
+      }
+    },
+    "Cathedral": {
+      "name": "Cathedral",
+      "cost": {
+        "victoryPoints": 7,
+        "faithPoints": 3
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusP",
+      "activationValue": 2,
+      "bonus": {
+        "resources": {
+          "victoryPoints": 7,
+          "faithPoints": 3
+        }
+      },
+      "bonusP": {
+        "resources": {
+          "victoryPoints": 1
+        }
+      }
+    }
+
+  }
+}

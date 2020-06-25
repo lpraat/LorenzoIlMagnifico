@@ -1,0 +1,312 @@
+{
+  "Francesco Sforza": {
+    "name": "Francesco Sforza",
+    "requirement": {
+      "buildingCards": 4,
+      "resources": {
+      }
+    },
+    "oncePerTurnEffect": "extraHarvest",
+    "permanentEffect": "null",
+    "extraHarvest": {
+      "value": 1,
+      "changeable": false
+    }
+
+
+  },
+  "Ludovico Ariosto": {
+    "name": "Ludovico Ariosto",
+    "requirement": {
+      "characterCards": 5,
+      "resources": {
+      }
+    },
+    "oncePerTurnEffect": "null",
+    "permanentEffect": "placeInOccupied"
+
+  },
+
+  "Filippo Brunelleschi": {
+    "name": "Filippo Brunelleschi",
+    "requirement": {
+      "buildingCards": 5,
+      "resources": {
+
+      }
+    },
+    "oncePerTurnEffect": "null",
+    "permanentEffect": "noMoneyCostPlace"
+  },
+
+  "Sigismondo Malatesta": {
+    "name": "Sigismondo Malatesta",
+    "requirement": {
+      "resources": {
+        "militaryPoints": 7,
+        "faithPoints": 3
+      }
+    },
+    "permanentEffect": "pawnValueChange",
+    "oncePerTurnEffect": "null",
+    "pawnValueChange": {
+      "colors": ["neutral"],
+      "value": 3
+    }
+  },
+
+  "Girolamo Savonarola": {
+    "name": "Girolamo Savonarola",
+    "requirement": {
+      "resources": {
+        "money": 18
+      }
+    },
+    "permanentEffect": "null",
+    "oncePerTurnEffect": "bonus",
+    "bonus": {
+      "resources": {
+        "faithPoints": 1
+      }
+    }
+  },
+
+  "Michelangelo Buonarroti": {
+    "name": "Michelangelo Buonarroti",
+    "requirement": {
+      "resources": {
+        "stones": 10
+      }
+    },
+    "permanentEffect": "null",
+    "oncePerTurnEffect": "bonus",
+    "bonus": {
+      "resources": {
+        "money": 3
+      }
+    }
+  },
+  "Giovanni dalle Bande Nere": {
+    "name": "Giovanni dalle Bande Nere",
+    "requirement": {
+      "resources": {
+        "militaryPoints": 12
+      }
+    },
+    "permanentEffect": "null",
+    "oncePerTurnEffect": "bonus",
+    "bonus": {
+      "resources": {
+        "woods": 1,
+        "stones": 1,
+        "money": 1
+      }
+    }
+  },
+  "Leonardo da Vinci": {
+    "name": "Leonardo da Vinci",
+    "requirement": {
+      "characterCards": 4,
+      "territoryCards": 2,
+      "resources": {
+      }
+    },
+    "permanentEffect": "null",
+    "oncePerTurnEffect": "extraProduction",
+    "extraProduction": {
+      "value": 0,
+      "changeable": false
+    }
+  },
+  "Sandro Botticelli": {
+    "name": "Sandro Botticelli",
+    "requirement": {
+      "resources": {
+        "woods": 10
+      }
+    },
+    "permanentEffect": "null",
+    "oncePerTurnEffect": "bonus",
+    "bonus": {
+      "resources": {
+        "militaryPoints": 2,
+        "victoryPoints": 1
+      }
+    }
+  },
+  "Ludovico il Moro": {
+    "name": "Ludovico il Moro",
+    "requirement": {
+      "territoryCards": 2,
+      "characterCards": 2,
+      "buildingCards": 2,
+      "ventureCards": 2,
+      "resources": {
+      }
+    },
+    "permanentEffect": "pawnSet",
+    "oncePerTurnEffect": "null",
+    "pawnSet": {
+      "value": 5,
+      "colors": ["orange", "black", "white"]
+    }
+  },
+  "Lucrezia Borgia": {
+    "name": "Lucrezia Borgia",
+    "requirement": {
+      "any": "true",
+      "anyValue": 6,
+      "resources": {
+      }
+    },
+    "permanentEffect": "pawnValueChange",
+    "oncePerTurnEffect": "null",
+    "pawnValueChange": {
+      "colors": ["orange", "black", "white"],
+      "value": 2
+    }
+  },
+  "Federico da Montefeltro": {
+    "name": "Federico da Montefeltro",
+    "requirement": {
+      "territoryCards": 5,
+      "resources": {
+      }
+    },
+    "permanentEffect": "null",
+    "oncePerTurnEffect": "pawnSetChoose",
+    "pawnSetChoose": {
+      "value": 6
+    }
+  },
+  "Lorenzo de Medici": {
+    "name": "Lorenzo de Medici",
+    "requirement": {
+      "resources": {
+        "victoryPoints": 35
+      }
+    },
+    "permanentEffect": "copyLeader",
+    "oncePerTurnEffect": "null"
+  },
+  "Sisto IV": {
+    "name": "Sisto IV",
+    "requirement": {
+      "resources": {
+        "woods": 6,
+        "stones": 6,
+        "money": 6,
+        "servants": 6
+      }
+    },
+    "permanentEffect": "churchSupportBonus",
+    "oncePerTurnEffect": "null",
+    "churchSupportBonus": {
+      "resources": {
+        "victoryPoints": 5
+      }
+    }
+  },
+  "Cesare Borgia": {
+    "name": "Cesare Borgia",
+    "requirement": {
+      "buildingCards": 3,
+      "resources": {
+        "faithPoints": 2,
+        "money": 12
+      }
+    },
+    "permanentEffect": "noMilitaryForTerritory",
+    "oncePerTurnEffect": "null"
+  },
+  "Santa Rita": {
+    "name": "Santa Rita",
+    "requirement": {
+      "resources": {
+        "faithPoints": 8
+      }
+    },
+    "permanentEffect": "resourcesMultiplier",
+    "oncePerTurnEffect": "null",
+    "resourcesMultiplier": {
+      "resources": {
+        "woods": 1,
+        "stones": 1,
+        "money": 1,
+        "servants": 1
+      },
+      "source": [
+        "immediate"
+      ],
+      "multiplier": 2
+    }
+  },
+  "Cosimo de Medici": {
+    "name": "Cosimo de Medici",
+    "requirement": {
+      "buildingCards": 4,
+      "characterCards": 2,
+      "resources": {
+
+      }
+    },
+    "permanentEffect": "null",
+    "oncePerTurnEffect": "bonus",
+    "bonus": {
+      "resources": {
+        "servants": 3,
+        "victoryPoints": 1
+      }
+    }
+  },
+  "Bartolomeo Colleoni": {
+    "name": "Bartolomeo Colleoni",
+    "requirement": {
+      "territoryCards": 2,
+      "ventureCards": 2,
+      "resources": {
+      }
+    },
+    "permanentEffect": "null",
+    "oncePerTurnEffect": "bonus",
+    "bonus": {
+      "resources": {
+        "victoryPoints": 4
+      }
+    }
+  },
+  "Ludovico III Gonzaga": {
+    "name": "Ludovico III Gonzaga",
+    "requirement": {
+      "resources": {
+        "servants": 15
+      }
+    },
+    "permanentEffect": "null",
+    "oncePerTurnEffect": "bonus",
+    "bonus": {
+      "resources": {
+        "councilPrivileges": 1
+      }
+    }
+  },
+  "Pico della Mirandola": {
+    "name": "Pico della Mirandola",
+    "requirement": {
+      "buildingCards": 2,
+      "ventureCards": 4,
+      "resources": {
+      }
+    },
+    "permanentEffect": "floorChange",
+    "oncePerTurnEffect": "null",
+    "floorChange": {
+      "color": "any",
+      "value": 0,
+      "discount": {
+        "money": 3
+      }
+    }
+  }
+
+}

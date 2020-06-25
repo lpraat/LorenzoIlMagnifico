@@ -1,0 +1,527 @@
+{
+  "firstPeriod": {
+    "Hiring Recruits": {
+      "name": "Hiring Recruits",
+      "costType": "normal",
+      "cost": {
+        "money": 4
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "militaryPoints": 5
+        }
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": "4"
+        }
+      }
+    },
+    "Repairing the Church": {
+      "name": "Repairing the Church",
+      "costType": "normal",
+      "cost": {
+        "woods": 1,
+        "stones": 1,
+        "money": 1
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "faithPoints": 1
+        }
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 5
+        }
+      }
+    },
+    "Building the Walls": {
+      "name": "Building the Walls",
+      "costType": "normal",
+      "cost": {
+        "stones": 3
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "militaryPoints": 2,
+          "councilPrivileges": 1
+        }
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 3
+        }
+      }
+    },
+    "Raising a Statue": {
+      "name": "Raising a Statue",
+      "costType": "normal",
+      "cost": {
+        "stones": 2,
+        "woods": 2
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "councilPrivileges": 2
+        }
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 4
+        }
+      }
+    },
+    "Military Campaign": {
+      "name": "Military Campaign",
+      "costType": "alternative",
+      "alternative": {
+        "militaryPoints": 4
+      },
+      "alternativeRequires": {
+        "militaryPoints": 3
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "money": 3
+        }
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 5
+        }
+      }
+    },
+    "Hosting Panhandlers": {
+      "name": "Hosting Panhandlers",
+      "costType": "normal",
+      "cost": {
+        "woods": 2
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "servants": 2
+        }
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 4
+        }
+      }
+    },
+    "Fighting Heresies": {
+      "name": "Fighting Heresies",
+      "costType": "alternative",
+      "alternative": {
+        "militaryPoints": 3
+      },
+      "alternativeRequires": {
+        "militaryPoints": 5
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "faithPoints": 2
+        }
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 5
+        }
+      }
+    },
+    "Support to the Bishop": {
+      "name": "Support to the Bishop",
+      "costType": "both",
+      "cost": {
+        "woods": 1,
+        "stones": 1,
+        "money": 2
+      },
+      "alternative": {
+        "militaryPoints": 2
+      },
+      "alternativeRequires": {
+        "militaryPoints": 4
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "faithPoints": 3
+        }
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 1
+        }
+      }
+    }
+  },
+  "secondPeriod": {
+    "Hiring Soldiers": {
+      "name": "Hiring Soldiers",
+      "costType": "normal",
+      "cost": {
+        "money": 6
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "militaryPoints": 6
+        }
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 5
+        }
+      }
+    },
+    "Repairint the Abbey": {
+      "name": "Repairing the Abbey",
+      "costType": "normal",
+      "cost": {
+        "money": 2,
+        "woods": 2,
+        "stones": 2
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "faithPoints": 2
+        }
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 6
+        }
+      }
+    },
+    "Building the Bastions": {
+      "name": "Building the Bastions",
+      "costType": "normal",
+      "cost": {
+        "stones": 4
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "militaryPoints": 3,
+          "councilPrivileges": 1
+        }
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 2
+        }
+      }
+    },
+    "Support to the King": {
+      "name": "Support to the King",
+      "costType": "alternative",
+      "alternative": {
+        "militaryPoints": 3
+      },
+      "alternativeRequires": {
+        "militaryPoints": 6
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "money": 5,
+          "councilPrivileges": 1
+        }
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 3
+        }
+      }
+    },
+    "Improving the Canals": {
+      "name": "Improving the Canals",
+      "costType": "normal",
+      "cost": {
+        "servants": 2,
+        "money": 3
+      },
+      "immediateEffect": "extraHarvest",
+      "permanentEffect": "bonusE",
+      "extraHarvest": {
+        "value": 4,
+        "changeable": true
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 5
+        }
+      }
+    },
+    "Hosting Foreigners": {
+      "name": "Hosting Foreigners",
+      "costType": "normal",
+      "cost": {
+        "woods": 4
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "servants": 5
+        }
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 4
+        }
+      }
+    },
+    "Crusade": {
+      "name": "Crusade",
+      "costType": "alternative",
+      "alternative": {
+        "militaryPoints": 4
+      },
+      "alternativeRequires": {
+        "militaryPoints": 8
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "money": 5,
+          "faithPoints": 1
+        }
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 5
+        }
+      }
+    },
+    "Support to the Cardinal": {
+      "name": "Support to the Cardinal",
+      "costType": "both",
+      "cost": {
+        "stones": 2,
+        "woods": 2,
+        "money": 3
+      },
+      "alternative": {
+        "militaryPoints": 4
+      },
+      "alternativeRequires": {
+        "militaryPoints": 7
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "faithPoints": 3
+        }
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 4
+        }
+      }
+      }
+  },
+  "thirdPeriod": {
+    "Hiring Mercenaries": {
+      "name": "Hiring Mercenaries",
+      "costType": "normal",
+      "cost": {
+        "money": 8
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "money": 8
+        }
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 6
+        }
+      }
+
+    },
+    "Repairing the Cathedral": {
+      "name": "Repairing the Cathedral",
+      "costType": "normal",
+      "cost": {
+        "money": 3,
+        "woods": 3,
+        "stones": 3
+      },
+      "immediateEffect": "bonus-extraFloorPick",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "faithPoints": 1
+        }
+      },
+      "extraFloorPick": {
+        "color": "any",
+        "value": 7,
+        "discount": {}
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 5
+        }
+      }
+    },
+    "Building the Towers": {
+      "name": "Building the Towers",
+      "costType": "normal",
+      "cost": {
+        "stones": 6
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "militaryPoints": 4,
+          "councilPrivileges": 1
+        }
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 4
+        }
+      }
+    },
+    "Promoting Sacred Art": {
+      "name": "Promoting Sacred Art",
+      "costType": "normal",
+      "cost": {
+        "woods": 6
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "faithPoints": 3
+        }
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 3
+        }
+      }
+    },
+    "Military Conquest": {
+      "name": "Military Conquest",
+      "costType": "alternative",
+      "alternative": {
+        "militaryPoints": 6
+      },
+      "alternativeRequires": {
+        "militaryPoints": 12
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "stones": 3,
+          "woods": 3,
+          "money": 3
+        }
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 7
+        }
+      }
+    },
+    "Improving the Roads": {
+      "name": "Improving the Roads",
+      "costType": "normal",
+      "cost": {
+        "servants": 3,
+        "money": 4
+      },
+      "immediateEffect": "extraProduction",
+      "permanentEffect": "bonusE",
+      "extraProduction": {
+        "value": 3,
+        "changeable": true
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 5
+        }
+      }
+    },
+    "Sacred War": {
+      "name": "Sacred War",
+      "costType": "alternative",
+      "alternative": {
+        "militaryPoints": 8
+      },
+      "alternativeRequires": {
+        "militaryPoints": 15
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "faithPoints": 4
+        }
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 8
+        }
+      }
+    },
+    "Support to the Pope": {
+      "name": "Support to the Pope",
+      "costType": "both",
+      "cost": {
+        "woods": 3,
+        "stones": 3,
+        "money": 4
+      },
+      "alternative": {
+        "militaryPoints": 5
+      },
+      "alternativeRequires": {
+        "militaryPoints": 10
+      },
+      "immediateEffect": "bonus",
+      "permanentEffect": "bonusE",
+      "bonus": {
+        "resources": {
+          "faithPoints": 2
+        }
+      },
+      "bonusE": {
+        "resources": {
+          "victoryPoints": 10
+        }
+      }
+    }
+
+  }
+}

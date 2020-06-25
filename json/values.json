@@ -1,0 +1,99 @@
+{
+  "coinSpot": {
+    "value": 1
+  },
+  "servantSpot": {
+    "value": 1
+
+  },
+  "militarySpot": {
+    "value": 1
+  },
+  "councilSpot": {
+    "value": 1
+  },
+  "harvestArea": {
+    "value": 1
+  },
+  "largeHarvestArea": {
+    "value": 1
+  },
+  "productionArea": {
+    "value": 1
+
+  },
+
+  "largeProductionArea": {
+    "value": 1
+  },
+
+  "councilPalace": {
+    "value": 1
+  },
+
+  "firstTerritoryFloor": {
+
+    "value": 1
+  },
+  "secondTerritoryFloor": {
+    "value": 3
+
+  },
+
+  "thirdTerritoryFloor": {
+
+    "value": 5
+  },
+  "fourthTerritoryFloor": {
+
+    "value": 7
+  },
+
+  "firstCharacterFloor": {
+    "value": 1
+
+  },
+  "secondCharacterFloor": {
+    "value": 3
+  },
+  "thirdCharacterFloor": {
+
+    "value": 5
+  },
+  "fourthCharacterFloor": {
+
+    "value": 7
+  },
+
+  "firstBuildingFloor": {
+    "value": 1
+  },
+  "secondBuildingFloor": {
+    "value": 3
+  },
+  "thirdBuildingFloor": {
+    "value": 5
+
+  },
+  "fourthBuildingFloor": {
+
+    "value": 7
+  },
+
+  "firstVentureFloor": {
+
+    "value": 1
+  },
+  "secondVentureFloor": {
+
+    "value": 3
+  },
+  "thirdVentureFloor": {
+
+    "value": 5
+  },
+  "fourthVentureFloor": {
+
+    "value": 7
+  }
+}

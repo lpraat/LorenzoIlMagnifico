@@ -1,0 +1,14 @@
+a - FIND_GAME - ADVANCED
+k - LOGIN - k - k - false - GUI
+k - LOGIN - k - k
+k - SHOW_STATS
+k - SHOW_STATS
+k - FIND_GAME - ADVANCED
+k - CHOOSE - 1
+a - CHOOSE - 1
+k - CHOOSE - 1
+a - CHOOSE - 1
+k - CHOOSE - 1
+a - CHOOSE - 1
+k - CHOOSE - 1
+a - CHOOSE - 1

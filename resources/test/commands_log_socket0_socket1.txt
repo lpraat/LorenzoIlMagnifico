@@ -1,0 +1,305 @@
+socket0 - LOGIN - socket0 - 0 - false - GUI
+socket1 - LOGIN - socket1 - 1 - false - false
+socket0 - FIND_GAME - ADVANCED
+socket1 - FIND_GAME - ADVANCED
+socket1 - CHAT - welcome to the league of legends
+socket1 - CHAT - kappa 
+socket1 - CHAT - forsen
+socket1 - chat - <font color='green'>fnatic</font>
+socket0 - chat - xpeke
+socket1 - chat - the big z
+socket0 - chat - fill
+socket1 - chat - fill
+socket1 - chat - fill
+socket1 - chat - fill
+socket1 - chat - fill
+socket1 - chat - fill
+socket1 - chat - fill
+socket1 - chat - fill
+socket0 - chat - fill
+socket1 - chat - fill
+socket1 - chat - yasuo op
+socket1 - chat - fill
+socket1 - chat - fill
+socket1 - chat - fill
+socket1 - choose - 1
+socket0 - choose - 2
+socket1 - choose - 1
+socket0 - choose - 1
+socket1 - choose - 1
+socket0 - choose - 1
+socket1 - choose - 1
+socket0 - choose - 1
+socket1 - choose - 1
+socket1 - place - coin_spot - black - 1
+socket1 - chat - fill
+socket1 - chat - fill
+socket0 - help
+socket1 - help
+socket0 - help - choose
+socket0 - help - place
+socket0 - help - leader
+socket0 - help - save
+socket1 - help - choose
+socket1 - help - place
+socket1 - help - leader
+socket1 - help - save
+socket1 - choose - 1
+socket1 - choose - 2
+socket1 - choose - 3
+socket1 - choose - no
+socket1 - choose - normal
+socket1 - choose - black
+socket1 - choose - skip
+socket1 - pass
+socket0 - place - character1 - black - 0
+socket1 - chat - fill
+socket1 - chat - fill
+socket0 - choose - 1
+socket0 - choose - 2
+socket0 - choose - 3
+socket0 - choose - no
+socket0 - choose - normal
+socket0 - choose - black
+socket0 - choose - skip
+socket0 - pass
+socket1 - place - venture1 - white - 0
+socket1 - chat - fill
+socket1 - chat - fill
+socket1 - choose - 1
+socket1 - choose - 2
+socket1 - choose - 3
+socket1 - choose - no
+socket1 - choose - normal
+socket1 - choose - black
+socket1 - choose - skip
+socket1 - pass
+socket0 - place - building1 - white - 0
+socket1 - chat - fill
+socket1 - chat - fill
+socket0 - choose - 1
+socket0 - choose - 2
+socket0 - choose - 3
+socket0 - choose - no
+socket0 - choose - normal
+socket0 - choose - black
+socket0 - choose - skip
+socket0 - pass
+socket1 - place - harvest_area - orange - 0
+socket1 - chat - fill
+socket1 - chat - fill
+socket1 - choose - 1
+socket1 - choose - 2
+socket1 - choose - 3
+socket1 - choose - no
+socket1 - choose - normal
+socket1 - choose - black
+socket1 - choose - skip
+socket1 - pass
+socket0 - place - production_area - orange - 0
+socket1 - chat - fill
+socket1 - chat - fill
+socket1 - board_status
+socket0 - choose - 1
+socket0 - choose - 2
+socket0 - choose - 3
+socket0 - choose - no
+socket0 - choose - normal
+socket0 - choose - black
+socket0 - choose - skip
+socket0 - pass
+socket1 - place - council_palace - neutral - 0
+socket1 - chat - fill
+socket1 - chat - fill
+socket0 - players_status
+socket1 - choose - 1
+socket1 - choose - 2
+socket1 - choose - 3
+socket1 - choose - no
+socket1 - choose - normal
+socket1 - choose - black
+socket1 - choose - skip
+socket1 - pass
+socket0 - place - council_palace - neutral - 0
+socket1 - chat - fill
+socket1 - chat - fill
+socket0 - choose - 1
+socket0 - choose - 2
+socket0 - choose - 3
+socket0 - choose - no
+socket0 - choose - normal
+socket0 - choose - black
+socket0 - choose - skip
+socket0 - pass
+socket1 - pass
+socket1 - chat - fill
+socket1 - chat - fill
+socket1 - place - council_spot - black - 0
+socket1 - chat - fill
+socket1 - chat - fill
+socket0 - help
+socket1 - help
+socket1 - choose - 1
+socket1 - choose - 2
+socket1 - choose - 3
+socket1 - choose - no
+socket1 - choose - normal
+socket1 - choose - black
+socket1 - choose - skip
+socket1 - pass
+socket0 - place - territory2 - black - 0
+socket1 - chat - fill
+socket1 - chat - fill
+socket0 - choose - 1
+socket0 - choose - 2
+socket0 - choose - 3
+socket0 - choose - no
+socket0 - choose - normal
+socket0 - choose - black
+socket0 - choose - skip
+socket0 - pass
+socket1 - place - venture2 - white - 0
+socket1 - chat - fill
+socket1 - chat - fill
+socket1 - choose - 1
+socket1 - choose - 2
+socket1 - choose - 3
+socket1 - choose - no
+socket1 - choose - normal
+socket1 - choose - black
+socket1 - choose - skip
+socket1 - pass
+socket0 - place - building2 - white - 0
+socket1 - chat - fill
+socket1 - chat - fill
+socket0 - choose - 1
+socket0 - choose - 2
+socket0 - choose - 3
+socket0 - choose - no
+socket0 - choose - normal
+socket0 - choose - black
+socket0 - choose - skip
+socket0 - pass
+socket1 - place - largeharvest_area - orange - 3
+socket1 - chat - fill
+socket1 - chat - fill
+socket1 - choose - 1
+socket1 - choose - 2
+socket1 - choose - 3
+socket1 - choose - no
+socket1 - choose - normal
+socket1 - choose - black
+socket1 - choose - skip
+socket1 - pass
+socket0 - place - largeproduction_area - orange - 3
+socket1 - chat - fill
+socket1 - chat - fill
+socket0 - choose - 1
+socket0 - choose - 2
+socket0 - choose - 3
+socket0 - choose - no
+socket0 - choose - normal
+socket0 - choose - black
+socket0 - choose - skip
+socket0 - pass
+socket1 - place - council_palace - neutral - 0
+socket1 - chat - fill
+socket1 - chat - fill
+socket1 - choose - 1
+socket1 - choose - 2
+socket1 - choose - 3
+socket1 - choose - no
+socket1 - choose - normal
+socket1 - choose - black
+socket1 - choose - skip
+socket1 - pass
+socket0 - place - council_palace - neutral - 0
+socket1 - chat - fill
+socket1 - chat - fill
+socket0 - choose - 1
+socket0 - choose - 2
+socket0 - choose - 3
+socket0 - choose - no
+socket0 - choose - normal
+socket0 - choose - black
+socket0 - choose - skip
+socket0 - pass
+socket1 - pass
+socket0 - pass
+socket1 - pass
+socket0 - pass
+socket1 - pass
+socket0 - pass
+socket1 - pass
+socket0 - pass
+socket1 - pass
+socket0 - choose - yes
+socket1 - choose - yes
+socket0 - choose - yes
+socket1 - choose - yes
+socket0 - pass
+socket1 - pass
+socket0 - choose - yes
+socket1 - choose - yes
+socket0 - choose - yes
+socket1 - choose - yes
+socket0 - pass
+socket1 - pass
+socket0 - choose - yes
+socket1 - choose - yes
+socket0 - choose - yes
+socket1 - choose - yes
+socket0 - pass
+socket1 - pass
+socket0 - pass
+socket1 - pass
+socket0 - pass
+socket1 - pass
+socket0 - pass
+socket1 - pass
+socket0 - leader - show_played
+socket0 - leader - show_hand
+socket0 - leader - show_once
+socket0 - leader - 1 - activate
+socket0 - leader - 1 - activate_once
+socket0 - pass
+socket1 - leader - show_played
+socket1 - leader - show_hand
+socket1 - leader - show_once
+socket1 - leader - 1 - activate
+socket1 - leader - 1 - activate_once
+socket1 - pass
+socket0 - leader - 1 - discard
+socket0 - choose - 1
+socket1 - leader - 4 - discard
+socket1 - choose - 1
+socket1 - pass
+socket0 - pass
+socket1 - pass
+socket0 - pass
+socket1 - pass
+socket0 - pass
+socket1 - pass
+socket0 - pass
+socket1 - pass
+socket0 - pass
+socket1 - pass
+socket1 - pass
+socket0 - pass
+socket1 - pass
+socket1 - pass
+socket0 - pass
+socket1 - pass
+socket1 - pass
+socket0 - pass
+socket1 - pass
+socket0 - pass
+socket1 - pass
+socket0 - pass
+socket1 - pass
+socket0 - pass
+socket1 - pass
+socket0 - pass
+socket1 - pass
+socket0 - pass
+socket1 - pass

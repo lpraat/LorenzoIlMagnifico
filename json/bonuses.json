@@ -1,0 +1,139 @@
+{
+  "coinSpot": {
+    "resources": {
+      "money": 5
+    }
+  },
+  "servantSpot": {
+    "resources": {
+      "servants": 5
+    }
+  },
+  "militarySpot": {
+    "resources": {
+      "woods": 2,
+      "stones": 3
+    }
+  },
+  "councilSpot": {
+    "resources": {
+      "councilPrivileges": 2
+    }
+  },
+  "harvestArea": {
+    "resources": {
+    }
+  },
+  "largeHarvestArea": {
+    "resources": {
+    }
+  },
+  "productionArea": {
+    "resources": {
+    }
+  },
+  "largeProductionArea": {
+    "resources": {
+    }
+  },
+
+  "councilPalace": {
+    "resources": {
+      "money": 1,
+      "councilPrivileges": 1
+    }
+  },
+
+  "firstTerritoryFloor": {
+    "resources": {
+    }
+
+  },
+  "secondTerritoryFloor": {
+    "resources": {
+    }
+
+  },
+
+  "thirdTerritoryFloor": {
+    "resources": {
+      "woods":1
+    }
+
+  },
+  "fourthTerritoryFloor": {
+    "resources": {
+      "woods":2
+    }
+
+  },
+
+  "firstCharacterFloor": {
+    "resources": {
+    }
+
+  },
+  "secondCharacterFloor": {
+    "resources": {
+    }
+
+  },
+  "thirdCharacterFloor": {
+    "resources": {
+      "stones":1
+    }
+
+  },
+  "fourthCharacterFloor": {
+    "resources": {
+      "stones":2
+    }
+
+  },
+
+  "firstBuildingFloor": {
+    "resources": {
+    }
+
+  },
+  "secondBuildingFloor": {
+    "resources": {
+    }
+
+  },
+  "thirdBuildingFloor": {
+    "resources": {
+      "militaryPoints":1
+    }
+
+  },
+  "fourthBuildingFloor": {
+    "resources": {
+      "militaryPoints":2
+    }
+
+  },
+
+  "firstVentureFloor": {
+    "resources": {
+    }
+
+  },
+  "secondVentureFloor": {
+    "resources": {
+    }
+
+  },
+  "thirdVentureFloor": {
+    "resources": {
+      "money":1
+    }
+
+  },
+  "fourthVentureFloor": {
+    "resources": {
+      "money":2
+    }
+
+  }
+}
